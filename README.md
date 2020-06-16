@@ -1,2 +1,2 @@
-# R-programming
+# R-learning
 Self-learning through online resources
