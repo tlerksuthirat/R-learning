@@ -67,7 +67,7 @@ featurePlot(x = iris[, 1:4],
 library("readxl")
 inforgraphic <- read.csv(text = getURL("https://raw.githubusercontent.com/tlerksuthirat/sample-dataset/master/json_infographics_csv"),
                      header = TRUE)
-View(inforgraphic)
+View(infographic)
 getwd() ##know wing the current working directory
 setwd("drive:/location") ##file will be exported to working directory
-export(inforgraphic, "infographic.xlsx")
+export(infographic, "infographic.xlsx")
