@@ -71,3 +71,4 @@ View(infographic)
 getwd() ##know wing the current working directory
 setwd("drive:/location") ##file will be exported to working directory
 export(infographic, "infographic.xlsx")
+read_xlsx("drive:/location/infographic.xlsx")
