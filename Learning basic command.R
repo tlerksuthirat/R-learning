@@ -1,4 +1,4 @@
-####Learning R-language fro dataprofessor Utube####
+####Learning R-language from dataprofessor Utube####
 library(datasets)
 data(iris)
 view(iris)
