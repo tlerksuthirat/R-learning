@@ -63,3 +63,11 @@ featurePlot(x = iris[, 1:4],
             plot = "pairs",
             ## Add a key at the top
             auto.key = list(columns = 3))
+
+library("readxl")
+inforgraphic <- read.csv(text = getURL("https://raw.githubusercontent.com/tlerksuthirat/sample-dataset/master/json_infographics_csv"),
+                     header = TRUE)
+View(inforgraphic)
+getwd() ##know wing the current working directory
+setwd("drive:/location") ##file will be exported to working directory
+export(inforgraphic, "infographic.xlsx")
