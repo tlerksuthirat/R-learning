@@ -65,7 +65,7 @@ featurePlot(x = iris[, 1:4],
             auto.key = list(columns = 3))
 
 library("readxl")
-inforgraphic <- read.csv(text = getURL("https://raw.githubusercontent.com/tlerksuthirat/sample-dataset/master/json_infographics_csv"),
+infographic <- read.csv(text = getURL("https://raw.githubusercontent.com/tlerksuthirat/sample-dataset/master/json_infographics_csv"),
                      header = TRUE)
 View(infographic)
 getwd() ##know wing the current working directory
